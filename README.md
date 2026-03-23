@@ -68,7 +68,7 @@ C 언어와 FUSE(Filesystem in Userspace)를 활용하여 사용자 공간에서
 ### 3.5 읽기 / 쓰기 (Read / Write)
 
 * 파일 offset 기반으로 block 위치 계산
-* * 여러 block에 걸친 read/write 처리 (offset에 따라 block 경계를 넘어가는 경우를 고려)
+* 여러 block에 걸친 read/write 처리 (offset에 따라 block 경계를 넘어가는 경우를 고려)
 * 파일 크기 증가 시 block 동적 할당
 * direct block과 indirect block을 활용한 데이터 관리
 
